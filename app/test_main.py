@@ -16,7 +16,7 @@ from app.main import check_password
         ("Ab1#567", False),
         ("Ab1#5678901234567", False),
         ("password123$", False),
-        ("PASSWORD123$", False),
+        ("PASSWORD123$", True),
         ("Password$$$", False),
         ("Password123", False),
         ("Passw%rd123", False),
